@@ -1,0 +1,14 @@
+class GFG {
+    String longest(String names[], int n) {
+       
+       String str="";
+       for(int i=0;i<n;i++)
+       {
+           if(names[i].length()>str.length())
+           {
+               str=names[i];
+           }
+       }
+       return str;
+    }
+}
